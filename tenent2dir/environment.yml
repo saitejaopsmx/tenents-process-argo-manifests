@@ -12,5 +12,5 @@ spec:
     containers:
     - name: pear
       ports:
-      - containerPort: "442"
+      - containerPort: "1442"
         name: http
