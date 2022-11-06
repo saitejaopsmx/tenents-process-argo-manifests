@@ -10,7 +10,7 @@ spec:
       app: frontend-deployment
   spec:
     containers:
-    - name: persimon
+    - name: pear
       ports:
-      - containerPort: "4422"
+      - containerPort: "442"
         name: http
