@@ -12,5 +12,5 @@ spec:
     containers:
     - name: santra
       ports:
-      - containerPort: "8533"
+      - containerPort: "3533"
         name: http
