@@ -12,5 +12,5 @@ spec:
     containers:
     - name: banana
       ports:
-      - containerPort: "7345"
+      - containerPort: "3345"
         name: http
