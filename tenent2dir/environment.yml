@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: testapp
+spec:
+  matchLabels:
+    app: frontend-deployment
+  metadata:
+    labels:
+      app: frontend-deployment
+  spec:
+    containers:
+    - name: pear
+      ports:
+      - containerPort: "3442"
+        name: http
